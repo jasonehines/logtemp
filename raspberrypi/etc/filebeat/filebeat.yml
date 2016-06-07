@@ -1,0 +1,5 @@
+filebeat:
+  prospectors:
+      paths:
+        - /var/log/logtemp.log
+      document_type: logtemp
